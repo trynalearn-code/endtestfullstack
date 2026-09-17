@@ -4,6 +4,7 @@ export function createUserService(username, password, email) {
     if (!username || !password || !email) {
         throw new Error("You must fill in your username, password, and email")
     }
+    // should at some point check if a user already exists with that username
     return result
 }
 

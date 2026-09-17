@@ -21,6 +21,11 @@ h1{
   color: bisque;
 }
 
+h2{
+  background-color: lightblue;
+  color: rgb(33, 84, 64);
+}
+
 footer{
   color: blueviolet;
   
